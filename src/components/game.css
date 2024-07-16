@@ -1,0 +1,31 @@
+/* src/Game.css */
+
+.start-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-select {
+    width: 250px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    background: #282c34;
+    color: white;
+  }
+  
+  .start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

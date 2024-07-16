@@ -1,0 +1,93 @@
+body.light-theme{
+  color: white;
+  background-color: #00ADB5 ;
+}
+
+
+
+.light-theme .container {
+  text-align: center;
+  color: white;
+}
+
+.light-theme .title {
+  color: #333333;
+}
+
+.light-theme .title span {
+  /* color: #26ffcb; */
+  /* color: white; */
+  color: black;
+}
+
+.light-theme .change {
+  width: 250px;
+  height: 100px;
+  border: none;
+  border-color: black;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: white;
+  font-size: 26px;
+  /* color: #26ffcb; */
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.light-theme .reset {
+  width: 250px;
+  height: 100px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: white;
+  font-size: 26px;
+  /* color: #26ffcb; */
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.light-theme .difficulty {
+  color: #333333;
+  margin-top: 50px;
+  font-size: 24px; /* Increased font size */
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.light-theme .difficulty select {
+  background: #ffffff;
+  color: black;
+  border: none;
+  padding: 10px; /* Increased padding */
+  border-radius: 5px;
+  font-size: 18px; /* Increased font size */
+}
+
+.light-theme .box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: #333333;
+}
+
+.light-theme .board {
+  height: 350px;
+  width: 360px;
+  display: flex;
+  margin: auto;
+}
+
+.light-theme .turnStyle {
+  margin-bottom: 10px;
+  color: #333333;
+}
